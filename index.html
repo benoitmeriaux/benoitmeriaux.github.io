@@ -1,0 +1,1405 @@
+<!DOCTYPE html>
+<html class="bg-stripped animated fadeIn" dir="ltr" prefix="og: http://ogp.me/ns#">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Benoît Mériaux - Software Engineer @ Datadog</title>
+    <base href="./">
+
+    <meta name="description" content="Benoît Mériaux - Software Engineer @ Datadog">
+
+
+    <!-- Schema.org markup for Google+ -->
+    <meta itemprop="image" content="https://bmeriaux.net/assets/profil.jpeg">
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:creator" content="@benoitmeriaux">
+
+    <!-- Open Graph data -->
+    <meta property="og:image" content="https://bmeriaux.net/assets/profil.jpeg">
+    <meta property="og:url" content="https://bmeriaux.net">
+    <meta property="og:title" content="Benoît Mériaux - Software Engineer @ Datadog">
+    <meta property="og:image" content="https:/bmeriaux.net/assets/profil.jpeg">
+    <meta property="og:description" content="
+Passionné par les nouvelles technologies, je suis un lecteur assidu des news du monde High Tech et aime beaucoup apprendre par moi-même.
+J'aime travailler dans un environnement dynamique qui évolue avec les technologies émergentes en utilisant les méthodes agiles.
+
+J'ai une bonne expérience en développement logiciel fullstack, j'ai occupé plusieurs fois le rôle de Techlead au sein d'équipes de différentes tailles.
+La qualité logiciel et l'artisanat logiciel (software craftsmanship) sont des composants essentiels pour moi.
+
+La performance, la scalabilité et la disponibilité de la plateforme sont des préoccupations majeures lors de la conception des projets que je développe.
+Pour moi, le maintient en condition d'une plateforme de production apportent des challenges qui sont essentiels pour apprendre et progresser sur mon métier">
+
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+
+<body class="cv-viewer">
+
+
+<style type="text/css">.css-crop {
+    width: 100%;
+    height: 0;
+    padding-bottom: 50%;
+    background-repeat: no-repeat;
+}
+
+.css-crop.bg-cover {
+    background-size: cover;
+    /*-ms-behavior: url("/styles/backgroundsize.min.htc"); doesn't work on IE8-9...*/
+    background-position: center;
+}
+
+.css-crop.bg-contain {
+    background-size: contain;
+    background-position: center;
+}
+
+.clear-margin {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-style: normal;
+    src: url('/fonts/Open-Sans-300/Open-Sans-300.eot');
+    src: url('/fonts/Open-Sans-300/Open-Sans-300.eot?#iefix') format('embedded-opentype'), local('Open Sans Light'), local('Open-Sans-300'), url('/fonts/Open-Sans-300/Open-Sans-300.woff2') format('woff2'), url('/fonts/Open-Sans-300/Open-Sans-300.woff') format('woff'), url('/fonts/Open-Sans-300/Open-Sans-300.ttf') format('truetype'), url('/fonts/Open-Sans-300/Open-Sans-300.svg#OpenSans') format('svg');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-style: normal;
+    src: url('/fonts/Open-Sans-600/Open-Sans-600.eot');
+    src: url('/fonts/Open-Sans-600/Open-Sans-600.eot?#iefix') format('embedded-opentype'), local('Open Sans Semibold'), local('Open-Sans-600'), url('/fonts/Open-Sans-600/Open-Sans-600.woff2') format('woff2'), url('/fonts/Open-Sans-600/Open-Sans-600.woff') format('woff'), url('/fonts/Open-Sans-600/Open-Sans-600.ttf') format('truetype'), url('/fonts/Open-Sans-600/Open-Sans-600.svg#OpenSans') format('svg');
+}
+
+.nomargin {
+    margin: 0px !important;
+}
+
+[data-id=new] [data-field=title] {
+    display: none;
+}
+
+.cv-viewer p {
+    min-height: 1em;
+}
+
+.cv-viewer .vcv-header {
+    margin: 30px auto;
+    max-width: 1020px;
+    position: relative;
+}
+
+.cv-viewer .vcv-header #social-share {
+    text-align: right;
+    position: absolute;
+    left: -80px;
+    top: 80px;
+    z-index: 1050;
+    opacity: 0;
+}
+
+.cv-viewer .vcv-header #social-share .share-button {
+    min-height: 30px;
+}
+
+.cv-viewer .vcv-header #social-share .share-button.subtle {
+    opacity: 0.75;
+}
+
+.cv-viewer .vcv-header .banner-top {
+    padding-left: 90px;
+    position: relative;
+    margin-top: -10px;
+    margin-bottom: -30px;
+    z-index: 0;
+    opacity: 0.5;
+    display: inline-block;
+}
+
+.cv-viewer .vcv-header .banner-top:hover {
+    opacity: 0.8;
+    -webkit-transition-property: transform opacity;
+    -moz-transition-property: transform opacity;
+    transition-property: transform opacity;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+.cv-viewer .vcv-logo {
+    height: 40px;
+    display: block;
+    padding: 5px 0;
+}
+
+.cv-viewer .cv-container article .empty {
+    display: none !important;
+}
+
+.cv-viewer footer.vcv-footer {
+    margin-top: 100px;
+    color: #333;
+    text-align: center;
+}
+
+.cv-viewer footer .powered-by {
+    margin-top: 0px;
+}
+
+.cv-viewer footer .updated-at {
+    opacity: 0.5;
+}
+
+.cv-fullscreen {
+    position: relative;
+}
+
+.cv-fullscreen .powered-by a {
+    color: white;
+}
+
+.cv-fullscreen .vcv-header {
+    display: none;
+}
+
+.cv-fullscreen .vcv-footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    margin-top: 50px;
+}
+
+.cv-fullscreen .vcv-footer .updated-at {
+    display: block;
+    margin-bottom: 1em;
+    opacity: 0.75;
+}
+
+.editor-visible {
+    display: none;
+}
+
+.cv-editor .cv-container {
+    margin: 0px auto 150px auto;
+}
+
+.cv-editor .cv-container .editor-visible {
+    display: block;
+}
+
+.cv-container,
+.cv-content {
+    opacity: 1 !important;
+}
+
+.cv-container {
+    display: block;
+    margin: 0px auto 10px auto;
+    min-height: 500px;
+    padding: 50px 6.5%;
+    max-width: 1020px;
+    background: white;
+    border-radius: 1px;
+    z-index: 10;
+}
+
+.cv-container .nowrap-list li {
+    white-space: nowrap;
+}
+
+.cv-container section {
+    position: relative;
+    word-wrap: break-word;
+}
+
+.cv-container article:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.cv-container .main section:first-child .edit-section .sort-up,
+.cv-container .cv-content section:first-child .edit-section .sort-up {
+    display: none;
+}
+
+.cv-container .main section:last-of-type .edit-section .sort-down,
+.cv-container .cv-content section:last-of-type .edit-section .sort-down {
+    display: none;
+}
+
+.cv-container #profile .edit-section {
+    display: none;
+}
+
+.cv-container #references .date-range {
+    display: none !important;
+}
+
+.cv-container #references .article-body {
+    width: 100%;
+}
+
+.cv-container svg {
+    overflow: visible;
+}
+
+.cv-container table {
+    width: 100%;
+}
+
+.cv-container .morris-hover {
+    display: none !important;
+}
+
+.cv-container input[type=month] {
+    position: relative;
+    border: none;
+    max-width: 100%;
+    content: attr(placeholder);
+    display: inline-block;
+}
+
+.cv-container input[type=month]:before {
+    content: attr(placeholder);
+    position: absolute;
+}
+
+.cv-container .gallery .asset-thumb {
+    display: block;
+}
+
+.cv-container .asset label.empty {
+    display: block !important;
+}
+
+.cv-container .btn {
+    margin-bottom: 15px;
+}
+
+.cv-container .btn i.subtle {
+    opacity: 0.2;
+}
+
+.cv-container .btn i {
+    opacity: 0.5;
+}
+
+.cv-container .btn.btn-glass {
+    background-color: rgba(255, 255, 255, 0.15);
+    -webkit-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0 3px 0 rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.cv-container a[href] {
+    color: #428bca;
+}
+
+.cv-container a[href] [data-bind=organization] {
+    color: #428bca;
+}
+
+.cv-container [data-bind=organization_url] {
+    display: block;
+}
+
+.cv-container [data-bind=end_date]:before {
+    content: ' - ';
+}
+
+.cv-container .add-section {
+    max-width: 850px;
+    margin: 0px auto;
+}
+
+.cv-container .cv-content:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.cv-container .cv-content .user-thumb {
+    display: none;
+}
+
+.cv-container .cv-content .user-thumb.visible {
+    display: inherit;
+}
+
+.cv-container .asset-thumb {
+    position: relative;
+    cursor: pointer;
+    display: block;
+}
+
+.cv-container .asset-thumb .asset-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 15%;
+    z-index: 100;
+    opacity: 0.5;
+}
+
+.cv-container .asset-thumb .asset-overlay:hover {
+    opacity: 0.75;
+}
+
+.cv-container .asset-thumb .asset-overlay.youtube {
+    background-image: url("/images/icons/play.png");
+}
+
+.cv-container .asset-thumb .asset-overlay img {
+    page-break-inside: avoid;
+}
+
+.cv-container .asset label.ellipsis > span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+}
+
+@media (max-width: 992px) {
+    #social-share {
+        display: none;
+    }
+
+    .vcv-header a {
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    .vcv-header .vcv-logo {
+        display: inline;
+    }
+
+    .vcv-header .btn {
+        width: 100%;
+    }
+}
+
+.pdf .cv-container .chart-container {
+    width: 850px;
+}
+
+.pdf .cv-container .cv-content {
+    padding: 0px;
+}
+
+.pdf .cv-container .portfolio .css-crop {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.pdf .cv-container .user-thumb {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.pdf body,
+.embed body {
+    background: white !important;
+}
+
+.pdf .container,
+.embed .container {
+    padding: 0px;
+    margin: 0px auto;
+    width: 100%;
+}
+
+.pdf .cv-container,
+.embed .cv-container {
+    padding: 0px !important;
+    margin-bottom: 0px !important;
+    max-width: 100% !important;
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.pdf .cv-container section:last-of-type,
+.embed .cv-container section:last-of-type,
+.pdf .cv-container section:last-of-type article:last-of-type,
+.embed .cv-container section:last-of-type article:last-of-type,
+.pdf .cv-container section:last-of-type article:last-of-type,
+.embed .cv-container section:last-of-type article:last-of-type,
+.pdf .cv-container p:last-of-type,
+.embed .cv-container p:last-of-type,
+.pdf .cv-container .content-container,
+.embed .cv-container .content-container,
+.pdf .cv-container .cv-content,
+.embed .cv-container .cv-content {
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.pdf .vcv-header,
+.embed .vcv-header,
+.pdf .vcv-footer,
+.embed .vcv-footer {
+    display: none;
+}
+
+.pdf header,
+.embed header,
+.pdf .header-text,
+.embed .header-text {
+    page-break-after: avoid;
+    page-break-inside: avoid;
+}
+
+.pdf .no-page-break,
+.embed .no-page-break,
+.pdf .css-crop,
+.embed .css-crop,
+.pdf pre,
+.embed pre,
+.pdf blockquote,
+.embed blockquote,
+.pdf img,
+.embed img,
+.pdf svg,
+.embed svg,
+.pdf .chart-graph,
+.embed .chart-graph,
+.pdf .chart-container,
+.embed .chart-container,
+.pdf .asset,
+.embed .asset {
+    page-break-inside: avoid;
+}
+
+.pdf .no-page-break p,
+.embed .no-page-break p {
+    page-break-inside: avoid;
+}
+
+.pdf .page-break,
+.embed .page-break {
+    page-break-before: always;
+}
+
+.pdf thead,
+.embed thead {
+    display: table-header-group;
+}
+
+.pdf p,
+.embed p {
+    orphans: 4;
+    widows: 4;
+}
+
+@page {
+    size: auto;
+}
+
+.table {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.table > div {
+    display: table-cell;
+}
+
+.cv-container {
+    font-family: "Open Sans", "Century Gothic", CenturyGothic, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, 华文细黑, STXihei, 黑体, SimHei, sans-serif;
+    font-size: 14px;
+    background: white;
+    padding: 0px;
+}
+
+.cv-container .cv-content {
+    padding: 4em 6%;
+}
+
+.cv-container h1,
+.cv-container h2,
+.cv-container h3,
+.cv-container h4,
+.cv-container h5,
+.cv-container h6 {
+    margin-top: 0px;
+    margin-bottom: 0.25em;
+}
+
+.cv-container h1 {
+    font-weight: 400;
+    color: #333333;
+    font-size: 350%;
+    font-family: "Open Sans", "Century Gothic", CenturyGothic, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, 华文细黑, STXihei, 黑体, SimHei, sans-serif;
+    margin-bottom: 0.1em;
+}
+
+.cv-container h2 {
+    font-size: 175%;
+    font-weight: 500;
+    color: #777777;
+}
+
+.cv-container h3 {
+    font-size: 150%;
+    font-family: "Open Sans", "Century Gothic", CenturyGothic, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, 华文细黑, STXihei, 黑体, SimHei, sans-serif;
+    font-weight: 600;
+    color: #333333;
+}
+
+.cv-container h4,
+.cv-container h5,
+.cv-container h6 {
+    font-size: 120%;
+}
+
+.cv-container h4 {
+    font-weight: 600;
+}
+
+.cv-container h5 {
+    font-weight: 300;
+}
+
+.cv-container h5,
+.cv-container h6 {
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+.cv-container [data-placeholder="Organization"],
+.cv-container [data-placeholder="School name"] {
+    color: #a0a0a0;
+    font-size: 90%;
+}
+
+.cv-container section {
+    position: relative;
+    margin-bottom: 2em;
+}
+
+.cv-container section .date-range {
+    font-weight: normal;
+}
+
+.cv-container section header {
+    width: 100%;
+    margin-bottom: 1em;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.cv-container section header:after {
+    content: '';
+    display: block;
+    border-bottom: 2px solid black;
+    width: 3em;
+}
+
+.cv-container article {
+    margin-bottom: 1.5em;
+}
+
+.cv-container #profile.header-bar {
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 1.5em !important;
+}
+
+.cv-container .main section,
+.cv-container .sidebar section {
+    border-top: 1px solid #cccccc;
+    padding-top: 1.5em;
+}
+
+.cv-container .main section:first-child,
+.cv-container .sidebar section:first-child {
+    border: none;
+    padding-top: 0;
+}
+
+.cv-container article.vcard {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.cv-container article.vcard .logo {
+    float: right;
+    width: 170px;
+}
+
+.cv-container article.vcard .logo .css-crop {
+    background-image: url(null);
+}
+
+@media (max-width: 768px) {
+    .cv-container article.vcard .logo {
+        float: none;
+        margin: 0px auto;
+    }
+}
+
+.cv-container article.vcard .logo {
+    display: none;
+}
+
+.cv-container .flex-columns {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.cv-container .flex-columns .sidebar {
+    width: 30%;
+    display: table-cell;
+    padding-left: 0px;
+    padding-right: 1.5em;
+    border-right: 1px solid #cccccc;
+}
+
+.cv-container .flex-columns .sidebar .reference_story h3 {
+    color: white;
+    font-size: 125%;
+}
+
+.cv-container .flex-columns .main {
+    display: table-cell;
+    background: white;
+    width: 70%;
+    padding-left: 1.5em;
+}
+
+.cv-container .dated_story .article-headings {
+    float: left;
+    width: 18%;
+    margin-right: 1%;
+}
+
+.cv-container .dated_story .article-body {
+    float: left;
+    width: 81%;
+}
+
+.cv-container .vcard .user-contact {
+    list-style: none;
+}
+
+.cv-container .vcard .user-contact i {
+    text-align: center;
+    width: 1.35em;
+    color: #cccccc;
+}
+
+.cv-container .vcard .user-contact li {
+    margin-bottom: 0.5em;
+}
+
+.cv-container .vcard .user-contact li:before {
+    font-family: FontAwesome;
+    opacity: 0.25;
+    font-size: 100%;
+    margin-right: 0.25em;
+    display: inline-block;
+    text-align: center;
+    width: 1.35em;
+    vertical-align: middle;
+}
+
+.cv-container .vcard .user-contact li.locality:before {
+    content: "\f041";
+}
+
+.cv-container .vcard .user-contact li.phone:before {
+    content: "\f095";
+}
+
+.cv-container .vcard .user-contact li.email:before {
+    content: "\f003";
+}
+
+.cv-container .vcard .user-contact li > span {
+    display: inline;
+}
+
+.cv-container .vcard .user-links li {
+    overflow: visible;
+    white-space: nowrap;
+    display: block;
+}
+
+.cv-container .vcard .user-contact li,
+.cv-container .vcard .user-links li {
+    margin-bottom: 1em;
+}
+
+.cv-container .user-thumb {
+    max-width: 100px;
+    float: left;
+    margin-right: 1em;
+}
+
+.cv-container .portfolio .row {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.cv-container .portfolio .col-sm-4 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.cv-container .portfolio .asset .asset-description {
+    display: none;
+}
+
+.cv-container .portfolio label {
+    font-weight: 700;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    min-height: 1.5em;
+}
+
+.cv-container .portfolio .css-crop {
+    width: 100%;
+    padding-bottom: 75%;
+    background-size: cover;
+    background-position: center center;
+    border: 1px solid black;
+    -webkit-box-shadow: 1px 1px 3px 0px #cccccc;
+    box-shadow: 1px 1px 3px 0px #cccccc;
+}
+
+.cv-container .portfolio a label {
+    cursor: pointer;
+}
+
+.cv-container .sidebar .portfolio .asset {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.cv-container .sidebar .portfolio .css-crop {
+    border: 0px;
+    padding: 0px;
+    height: auto;
+    background-image: none !important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.cv-container .sidebar .portfolio .css-crop img {
+    display: block !important;
+}
+
+@media (min-width: 768px) {
+    .cv-container .sidebar .portfolio label {
+        text-align: left;
+    }
+
+    .cv-container .sidebar .portfolio .asset,
+    .cv-container .sidebar .portfolio .asset-thumb {
+        width: 100%;
+    }
+
+    .cv-container .sidebar .portfolio .asset-description {
+        display: block;
+    }
+}
+
+.cv-container .sidebar .popover {
+    display: none !important;
+    opacity: 0;
+}
+
+.cv-container .competency .competency-bar {
+    margin: 0.5em 0px 0.75em;
+    width: 100%;
+    background-color: white;
+    border: 1px solid #cccccc;
+    border-radius: 1px;
+    height: 10px;
+}
+
+.cv-container .competency .competency-level {
+    background-color: #cccccc;
+    border-radius: 1px;
+    height: 100%;
+}
+
+@media (max-width: 768px) {
+    .cv-container .cv-content {
+        padding: 5em 8%;
+    }
+
+    .cv-container h1 {
+        font-size: 250%;
+    }
+
+    .cv-container h2 {
+        font-size: 150%;
+    }
+
+    .cv-container h3 {
+        font-size: 125%;
+    }
+
+    .cv-container .flex-columns,
+    .cv-container .main,
+    .cv-container .sidebar {
+        width: 100% !important;
+        display: block !important;
+        border: 0 !important;
+    }
+
+    .cv-container .main {
+        padding: 30px 0px 0px 0px;
+    }
+
+    .cv-container h6.date-range {
+        text-align: left;
+        float: none;
+    }
+
+    .cv-container .user-thumb {
+        position: relative;
+        margin: 1em auto !important;
+        display: block;
+        float: none !important;
+        width: auto;
+        max-width: 150px;
+    }
+
+    .cv-container .competency h4,
+    .cv-container .competency .competency-list {
+        float: none;
+        width: 100%;
+    }
+
+    .cv-container article {
+        padding: 0px;
+    }
+
+    .cv-container article .article-headings,
+    .cv-container article .article-body {
+        width: 100% !important;
+    }
+}
+
+.pdf .cv-container .cv-content {
+    padding: 0px;
+}
+
+.pdf .cv-container .chart-container {
+    width: 600px !important;
+}
+</style>
+<div>
+    <div class="cv-container animated fadeIn ">
+        <div class="cv-content">
+            <div class="contact-spacer">
+                <div class="spacer-stripe"></div>
+            </div>
+            <section class="header-bar profile no-page-break" id="profile">
+                <article class="vcard "><img class="user-thumb photo visible"
+                                             src="assets/profil.jpeg">
+                    <div class="logo">
+                        <div class="css-crop bg-contain"></div>
+                    </div>
+                    <div class="fn user-title">
+                        <h1 class="full-name" data-bind="full_name">
+                            <span data-placeholder="Full name">Benoît MÉRIAUX</span>
+                        </h1>
+                        <h2 class="title">
+                            <span data-placeholder="Headline / current title">Software Engineer @ Datadog</span>
+                        </h2>
+                    </div>
+                </article>
+            </section>
+            <div class="flex-columns">
+                <div class="sidebar">
+                    <section data-bind="profile_sidebar" class="nomargin vcard profile no-page-break" id="profile">
+                        <article class="contact_info ">
+                            <div class="adr">
+                                <ul class="user-contact">
+                                    <li class="adr locality"><span data-placeholder="Location">29 ans, Paris</span>
+                                    </li>
+                                </ul>
+                                <ul class="user-links user-websites">
+                                    <li><a href="https://twitter.com/benoitmeriaux" target="_blank"><i
+                                            class="fa fa-fw fa-twitter"></i>&nbsp;twitter.com/benoitmeriaux</a></li>
+                                    <li><a href="https://github.com/bmeriaux" target="_blank"><i
+                                            class="fa fa-fw fa-github"></i>&nbsp;github.com/bmeriaux</a></li>
+                                    <li><a href="https://www.linkedin.com/in/bmeriaux/" target="_blank"><i
+                                            class="fa fa-fw fa-linkedin"></i>&nbsp;www.linkedin.com/in/bmeriaux</a></li>
+                                    <li><a href="https://www.root-me.org/bmeriaux" target="_blank"><i
+                                            class="fa fa-fw fa-user-secret"></i>&nbsp;www.root-me.org/bmeriaux</a></li>
+                                </ul>
+                            </div>
+                        </article>
+                    </section>
+                    <section data-bind="sidebar_sections" class="text-section strengths" id="strengths">
+                        <header>
+                            <h3 class="header-text">
+                                <span data-placeholder="Skills">Compétences</span>
+                            </h3>
+                        </header>
+                        <article class="competency ">
+                            <div class="article-body competency"><h6><span data-placeholder="Name">Langage</span>
+                            </h6>
+                                <div class="competency-description mce-content-body" spellcheck="true"
+                                     placeholder="Description">
+                                    <p><strong>Java</strong>: Spring, Hibernate, Maven, Gradle, Camel</p>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="competency-description mce-content-body"
+                                     spellcheck="true" placeholder="Description">
+                                     <p><strong>Node.js</strong>: Hapi, Express, Anvil Connect, Promise</p>
+                                 </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </article>
+                         <article class="competency ">
+                            <div class="article-body competency">
+                                <h6>
+                                    <span data-placeholder="Name">DevOps</span>
+                                </h6>
+                                <div class="competency-description mce-content-body"
+                                     spellcheck="true" placeholder="Description">
+                                     <p><strong>Infra as Code</strong>: Ansible</p>
+                                     <p><strong>CI/CD</strong>: Jenkins, Travis, Gitlab-CI</p>
+                                    <p><strong>Containerisation</strong>: Docker, Kubernetes</p>
+                                    <p><strong>Scripts</strong>: Python, Bash</p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </article>
+                        <article class="competency ">
+                            <div class="article-body competency"><h6><span data-placeholder="Name">Architecture</span>
+                            </h6>
+                                <div class="competency-description mce-content-body" spellcheck="true"
+                                     placeholder="Description">
+                                    <p><strong>Distribuée</strong>: Flink, Spark, Cassandra, Artemis</p>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="competency-description mce-content-body"
+                                     spellcheck="true" placeholder="Description">
+                                     <p><strong>Authentification</strong>: OpenId Connect, OAuth2</p>
+                                 </div>
+                                 <div class="competency-description mce-content-body"
+                                     spellcheck="true" placeholder="Description">
+                                     <p><strong>Web</strong>: Reverse Proxy, Load Balancing, Cache, CDN</p>
+                                 </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </article>
+                        <article class="competency ">
+                            <div class="article-body competency">
+                                <h6>
+                                    <span data-placeholder="Name">Methodologie</span>
+                                </h6>
+                                <div class="competency-description mce-content-body"
+                                     spellcheck="true" placeholder="Description">
+                                     <p><strong>Software craftsmanship</strong>:
+                                     <p>TDD, Pair Programming, Code Review</p>
+                                    <p>Clean Code, clean Architecture</p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                                <div class="competency-description mce-content-body"
+                                     spellcheck="true" placeholder="Description">
+                                     <p><strong>Agile</strong>: Scrum/Kanban</p>
+                                 </div>
+                            <div class="clearfix"></div>
+                        </article>
+                        <article class="competency ">
+                            <div class="article-body competency">
+                                <h6>
+                                    <span data-placeholder="Name">Anglais</span>
+                                </h6>
+                                <div class="competency-description mce-content-body"
+                                     spellcheck="true" placeholder="Description"><p><strong>TOEIC</strong>: 910</p>
+                                 </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </article>
+                    </section>
+                    <div data-bind="add-sidebar-section-btn"><span
+                            data-placeholder="add-sidebar-section-btn"></span>
+                    </div>
+                </div>
+                <div class="main">
+                    <section id="summary" class="text_story no-page-break">
+                        <header>
+                            <h3 class="header-text">
+                                <span data-placeholder="Summary">Résumé</span>
+                            </h3>
+                        </header>
+                        <article class="">
+                            <div class=" mce-content-body" spellcheck="true"
+                                 placeholder="Description">
+                                  <p>
+Passionné par les nouvelles technologies, je suis un lecteur assidu des news du monde High Tech et aime beaucoup apprendre par moi-même.
+J'aime travailler dans un environnement dynamique qui évolue avec <strong>les technologies émergentes en utilisant les méthodes agiles</strong>.
+</p>
+J'ai une solide expérience en développement logiciel fullstack, j'ai occupé plusieurs fois le rôle de <strong>Techlead</strong> au sein d'équipes de différentes tailles.
+J'ai principalement une expertise coté backend, en java et en NodeJS, j'ai pas mal d'expérience dans l'<strong>infra as code</strong> avec Ansible ainsi que dans l'utilisation de Docker et Kubernetes.
+La <strong>qualité logiciel et l'artisanat logiciel (software craftsmanship</strong>) sont des composants essentiels pour moi.
+</p>
+ <p>
+La <strong>performance, la scalabilité et la disponibilité </strong>de la plateforme sont des préoccupations majeures lors de la conception des projets que je développe.
+</p>
+ <p>
+Pour moi, le maintient en condition d'une plateforme de production apportent<strong> des challenges qui sont essentiels </strong> pour apprendre et progresser sur mon métier
+                            </p></div>
+                        </article>
+                    </section>
+                    <section id="positions" class="dated_story">
+                        <header>
+                            <h3 class="header-text">
+                                <span data-placeholder="Work experience">Expériences</span>
+                            </h3>
+                        </header>
+                        <article class="">
+                           <div class="article-headings">
+                             <h6 class="date-range">
+                               <span data-bind="start_date"><span data-placeholder="YYYY">10/2020</span></span>
+                               <span data-bind="end_date"><span data-placeholder="YYYY">Aujourd'hui</span></span>
+                            </h6>
+                           </div>
+                           <div class="article-body">
+                               <h4>
+                                   <span data-placeholder="Job title">Software Engineer</span>
+                               </h4>
+                               <div data-bind="organization_url" target="_blank" rel="nofollow">
+                                   <h5>
+                                       <span data-placeholder="Organization">Datadog</span>
+                                   </h5>
+                               </div>
+                                <div class=" mce-content-body" spellcheck="true"
+                                    placeholder="Description">
+                                    <p><span>Team RUM Backend</span>
+                               </p>
+                           </div>
+                       </article>
+                        <article class="">
+                           <div class="article-headings">
+                             <h6 class="date-range">
+                               <span data-bind="start_date"><span data-placeholder="YYYY">11/2019</span></span>
+                               <span data-bind="end_date"><span data-placeholder="YYYY">10/2020</span></span>
+                            </h6>
+                           </div>
+                           <div class="article-body">
+                               <h4>
+                                   <span data-placeholder="Job title">Lead Developer FullStack - MR1 NexSIS 18/112 pour l'ANSC</span>
+                               </h4>
+                               <div data-bind="organization_url" target="_blank" rel="nofollow">
+                                   <h5>
+                                       <span data-placeholder="Organization">OCTO Technology</span>
+                                   </h5>
+                               </div>
+                               <div class=" mce-content-body" spellcheck="true"
+                                    placeholder="Description">
+                                    <p><span>Realisation du projet NexSIS 18-112</span>
+                               </p>
+                                   <ul>
+                                     <li><span>Techleading dans une équipe d'une quinzaine de développeurs</span></li>
+                                     <li><span>Conception de l'architecture du produit</span></li>
+                                     <li><span><strong>Mise en place du CI/CD</strong> avec Gitlab-CI/Kubernetes/Argo CD</span></li>
+                                     <li><span>Mise en pratique de <strong>la Clean Architecture, TDD, BDD, Pair Programming, Code Review </strong></span></li>
+                                     <li>Architecture WEB/SPA</li>
+                                   </ul>
+                               </div>
+                           </div>
+                       </article>
+                        <article class="">
+                           <div class="article-headings">
+                             <h6 class="date-range">
+                               <span data-bind="start_date"><span data-placeholder="YYYY">12/2018</span></span>
+                               <span data-bind="end_date"><span data-placeholder="YYYY">11/2019</span></span>
+                            </h6>
+                           </div>
+                           <div class="article-body">
+                               <h4>
+                                   <span data-placeholder="Job title">Dévelopeur FullStack sénior - Poc SGO/VSSO dans le cadre de NexSIS pour l'ANSC</span>
+                               </h4>
+                               <div data-bind="organization_url" target="_blank" rel="nofollow">
+                                   <h5>
+                                       <span data-placeholder="Organization">OCTO Technology</span>
+                                   </h5>
+                               </div>
+                               <div class=" mce-content-body" spellcheck="true"
+                                    placeholder="Description">
+                                    <p><span>MVP du module du Système de Gestion des Opérations (SGO) du projet NexSIS 18-112</span>
+                               </p>
+                                   <ul>
+                                       <li><span>Architecture Web/SPA</span></li>
+                                       <li><span><strong>Optimisation sous contrainte</strong> avec Pulp/GLPK</span></li>
+                                       <li><span><strong>Mise en place du CI/CD</strong> avec Gitlab-CI/Ansible/Docker</span></li>
+                                       <li><span>Mise en pratique de <strong>la Clean Architecture, TDD, BDD, Pair Programming, Code Review </strong></span></li>
+                                       <li><span>Conception de l'architecture du produit</span></li>
+                                   </ul>
+                               </div>
+                           </div>
+                       </article>
+                         <article class="">
+                            <div class="article-headings">
+                              <h6 class="date-range">
+                                <span data-bind="start_date"><span data-placeholder="YYYY">01/2018</span></span>
+                                <span data-bind="end_date"><span data-placeholder="YYYY">11/2018</span></span>
+                              </h6>
+                            </div>
+                            <div class="article-body">
+                                <h4>
+                                    <span data-placeholder="Job title">Lead developer - Projet OFS-NG pour BNPP ITG</span>
+                                </h4>
+                                <div data-bind="organization_url" target="_blank" rel="nofollow">
+                                    <h5>
+                                        <span data-placeholder="Organization">OCTO Technology</span>
+                                    </h5>
+                                </div>
+                                <div class=" mce-content-body" spellcheck="true"
+                                     placeholder="Description"><p><span>Refonte du système OFS de BNPP ITG pour une sortie du mainframe</span>
+                                </p>
+                                    <ul>
+                                        <li><span>Architecture <strong>distribuée:</strong> SpringBoot/Flink/Kubernetes/Cassandra</span></li>
+                                        <li><span><strong>CI/CD</strong> avec Gitlab-CI et Kubernetes</span></li>
+                                        <li><span>Mise en pratique de <strong>la Clean Architecture, TDD, BDD, Pair Programming, Code Review </strong></span></li>
+                                        <li><span>Accompagnement de juniors</span></li>
+                                        <li><span><strong>Lead</strong> sur le sujet d'orchestration des services du workflow de traitements de données</span></li>
+                                        <li>
+                                            <span><strong>Tests fonctionnels</strong> cucumber <strong>automatisés</strong></span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="">
+                            <div class="article-headings"><h6 class="date-range"><span data-bind="start_date">
+                                <span data-placeholder="YYYY">01/2017</span></span><span data-bind="end_date">
+                                <span data-placeholder="YYYY">12/2017</span></span></h6>
+                            </div>
+                            <div class="article-body">
+                                <h4>
+                                    <span data-placeholder="Job title">Lead developer - Projet VOD pour Canal + International</span>
+                                </h4>
+                                <div data-bind="organization_url" target="_blank" rel="nofollow">
+                                    <h5>
+                                        <span data-placeholder="Organization">OCTO Technology</span>
+                                    </h5>
+                                </div>
+                                <div class=" mce-content-body" spellcheck="true"
+                                     placeholder="Description"><p><span>Maintenance évolutive de la plateforme de mise à disposition de contenus pour la vidéo de rattrapage de Canal+ International :</span>
+                                </p>
+                                    <ul>
+                                        <li><span>Architecture <strong>micro service</strong> en Node.js</span></li>
+                                        <li><span><strong>Déploiement automatisé</strong> avec Ansible</span></li>
+                                        <li><span>Migration CouchDb -&gt; CouchBase</span></li>
+                                        <li><span>Migration ES5 + callbacks -&gt; ES6 + Promises</span></li>
+                                        <li>
+                                            <span><strong>Tests fonctionnels</strong> fitnesse <strong>automatisés</strong></span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="">
+                            <div class="article-headings">
+                                <h6 class="date-range"><span data-bind="start_date">
+                                <span data-placeholder="YYYY">02/2016</span></span><span data-bind="end_date">
+                                <span data-placeholder="YYYY">01/2017</span></span>
+                                </h6>
+                            </div>
+                            <div class="article-body">
+                                <h4>
+                                    <span data-placeholder="Job title">Software Craftsman API chez Club Med </span>
+                                </h4>
+                                <div data-bind="organization_url" target="_blank" rel="nofollow">
+                                    <h5>
+                                        <span data-placeholder="Organization">OCTO Technology</span>
+                                    </h5>
+                                </div>
+                                <div class=" mce-content-body" spellcheck="true"
+                                     placeholder="Description"><p>Développement de l'API Club Med, plus particulièrement
+                                    les ressources pour le nouvel espace client :</p>
+                                    <ul>
+                                        <li>Node.js (ES6)</li>
+                                        <li><strong>Conception API</strong></li>
+                                        <li><strong>Veille</strong> sur l'usage des bonnes pratiques du <strong>Software
+                                            Craftsmanship</strong></li>
+                                        <li><strong>OpenId Connect</strong> pour l'authentification des utilisateurs
+                                            (serveur anvil connect)
+                                        </li>
+                                        <li>Organisation en <strong>feature team</strong></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="">
+                            <div class="article-headings">
+                                <h6 class="date-range"><span data-bind="start_date">
+                                    <span data-placeholder="YYYY">11/2014</span></span>
+                                    <span data-bind="end_date">
+                                    <span data-placeholder="YYYY">02/2016</span></span>
+                                </h6>
+                            </div>
+                            <div class="article-body">
+                                <h4>
+                                    <span data-placeholder="Job title">Consultant SI - Projet Refonte Service Public DILA</span>
+                                </h4>
+                                <div data-bind="organization_url" target="_blank" rel="nofollow">
+                                    <h5>
+                                        <span data-placeholder="Organization">OCTO Technology</span>
+                                    </h5>
+                                </div>
+                                <div class=" mce-content-body" spellcheck="true"
+                                     placeholder="Description"><p><span>Projet de refonte du site <strong>service-public.fr</strong> pour la DILA: Développeur </span>
+                                </p>
+                                    <ul>
+                                        <li><span>Remplacement de l'existant avec intégration de Maven, et de la stack Java Spring Hibernate Thymeleaf </span>
+                                        </li>
+                                        <li>
+                                            <span>Outillage de l'environnement pour un développement en <strong>TDD</strong>:</span>
+                                            <ul>
+                                                <li>
+                                                    <span>Mise en place d'une unité d'<strong>intégration continue</strong> (Jenkins, Sonar) </span>
+                                                </li>
+                                                <li><span>Mise en place de <strong>tests</strong> unitaires, fonctionnelles et de performances <strong>automatisés </strong></span>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><span>Création d'une <strong>API REST</strong> pour les partenaires en remplacement du kit MSP</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="page-break">
+                            <div class="article-headings">
+                                <h6 class="date-range">
+                                    <span data-bind="start_date"><span data-placeholder="YYYY">09/2012</span></span>
+                                    <span data-bind="end_date"><span data-placeholder="YYYY">10/2014</span></span>
+                                </h6>
+                            </div>
+                            <div class="article-body">
+                                <h4>
+                                    <span data-placeholder="Job title">Consultant SI en apprentissage - Projet Écotaxe Total</span>
+                                </h4>
+                                <div data-bind="organization_url" target="_blank" rel="nofollow">
+                                    <h5>
+                                        <span data-placeholder="Organization">Capgemini</span>
+                                    </h5>
+                                </div>
+                                <div class=" mce-content-body" spellcheck="true"
+                                     placeholder="Description"><p><span>Correction d'anomalies et développement d'évolutions:</span>
+                                </p>
+                                    <ul>
+                                        <li><span>Déploiement d'application sur jBoss SOA 5 </span></li>
+                                        <li>Développements d'IHM en utilisant Grails 2, Groovy, jQuery, HTML, CSS ...
+                                        </li>
+                                        <li><span><strong>Développements backend</strong> en utilisant Java EE, Spring, Hibernate, JPA 2.0, Apache CXF </span>
+                                        </li>
+                                        <li>Support client TMA</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </article>
+                    </section>
+                    <section id="degrees" class="dated_story">
+                        <header>
+                            <h3 class="header-text">
+                                <span data-placeholder="Education">Formations</span>
+                            </h3>
+                        </header>
+                        <article class="">
+                            <div class="article-headings">
+                                <h6 class="date-range"><span data-bind="start_date">
+                                    <span data-placeholder="YYYY">2009</span></span><span data-bind="end_date">
+                                    <span data-placeholder="YYYY">2014</span></span>
+                                </h6>
+                            </div>
+                            <div class="article-body">
+                                <h4>
+                                    <span data-placeholder="Degree name">Ingénieur SI, Systémes d'Information et Réseaux</span>
+                                </h4>
+                                <div data-bind="organization_url" target="_blank" rel="nofollow">
+                                    <h5>
+                                        <span data-placeholder="School name">ECE, Paris</span>
+                                    </h5>
+                                </div>
+                                <div class=" mce-content-body" spellcheck="true"
+                                     placeholder="Description"><p><span>Cycle Master réalisé en apprentissage</span></p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="">
+                            <div class="article-headings">
+                                <h6 class="date-range">
+                                    <span data-bind="start_date">
+                                        <span data-placeholder="YYYY">2013</span></span>
+                                    <span data-bind="end_date" class="empty">
+                                        <span class="undefined needsclick empty" data-placeholder="YYYY"></span>
+                                    </span>
+                                </h6>
+                            </div>
+                            <div class="article-body">
+                                <h4>
+                                    <span data-placeholder="Degree name">Global Business Managment, Manufacturing and Planning Control Systems</span>
+                                </h4>
+                                <div data-bind="organization_url" target="_blank" rel="nofollow">
+                                    <h5>
+                                        <span data-placeholder="School name">University of California, Irvine</span>
+                                    </h5>
+                                </div>
+                                <div class=" mce-content-body" spellcheck="true"
+                                     placeholder="Description"><p>Summer school</p></div>
+                            </div>
+                        </article>
+                        <article class="">
+                            <div class="article-headings">
+                                <h6 class="date-range">
+                                    <span data-bind="start_date">
+                                <span data-placeholder="YYYY">2011</span></span>
+                                    <span data-bind="end_date" class="empty">
+                                <span data-placeholder="YYYY"></span>
+                                </span>
+                                </h6>
+                            </div>
+                            <div class="article-body">
+                                <h4>
+                                    <span data-placeholder="Degree name">Computer Engineering</span>
+                                </h4>
+                                <div data-bind="organization_url" target="_blank" rel="nofollow">
+                                    <h5>
+                                        <span data-placeholder="School name">Concordia University, Montreal</span>
+                                    </h5>
+                                </div>
+                                <div class=" mce-content-body" spellcheck="true" placeholder="Description">
+                                    <p>Semestre à l'étranger</p>
+                                </div>
+                            </div>
+                        </article>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
